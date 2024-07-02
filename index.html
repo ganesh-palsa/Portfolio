@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/bd01dad867.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="c">
+            <nav>
+                <img src="./my_logo.png" class="logo" alt="logo">
+
+                <ul id="ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hdtx">
+                <h1>Hi, I am <span>Ganesh</span> <br> I am an <span>Engineer</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="c">
+            <div class="col">
+                <div id="my_img" class="about1">
+                    <img src="./blank_img.png">
+                </div>
+                <div class="about2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Engineers develop new technological solutions. During the engineering design process, the responsibilities of the engineer may include defining problems, conducting and narrowing research, analyzing criteria, finding and analyzing solutions, and making decisions. Much of an engineer's time is spent on researching, locating, applying, and transferring information.Indeed, research suggests engineers spend 56% of their time engaged in various information behaviours, including 14% actively searching for information</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> <i>Skills</i> </p>
+                        <p class="tab-links" onclick="opentab('experience')"><i>Experience</i></p>
+                        <p class="tab-links" onclick="opentab('education')"><i>Education</i></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Pogramming</li>
+                            <li>Problem Solving</li>
+                            <li>web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>currently</span><br>Internship at Oasis Infobyte</li>
+                          
+                            <li><span>2024</span><br>Class Representator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027</span><br>B.Tech from KITSW</li>
+                            <li><span>2023</span><br>HSC from TSRJC</li>
+                            <li><span>2021</span><br>SSC from TSMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="portfolio">
+    <div class="c">
+        <h1 class="stt">My Projects</h1>
+        <div class="wlt">
+            <div class="work">
+                <img src="./landing.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>It is the landing, it was designed using HTML & CSS.</p>
+                    <a href="https://ganesh-palsa.github.io/Landing_page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./temp.png">
+                <div class="layer">
+                    <h3>Temperature Converter</h3>
+                    <p>It is temperature converter website and it was designed using HTML, CSS & JS.</p>
+                    <a href="https://ganesh-palsa.github.io/Temperature_Converter/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="c">
+        <div class="col">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>ganeshpalsa186@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 987654321</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/palsa-ganesh-9ba4432b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ganesh-palsa"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ganesh. Made by Ganesh</p>
+    </div>
+</div>
+    
+   <script src="./index.js"></script>
+       
+</body>
+</html>
